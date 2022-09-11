@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Darkmode Toggle</title>
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- or -->
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <a href="#" class="logo">
+        <h4>ToDoList</h4>
+      </a>
+      <ul class="nav">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#">About</a></li>
+        <li class="nav-item"><a href="#">Menu</a></li>
+        <li class="nav-item"><a href="#">Categories</a></li>
+        <li class="nav-item"><a href="#">Settings</a></li>
+      </ul>
+      <a href="javascript:void(0)" id="toggle_btn">
+        <i id="toggle_icon" class='bx bx-sun'></i>
+      </a>
+    </div>
+    <div class="content">
+      <div class="landing">
+        <div class="containerList">
+           <h1>To Do List</h1>
+            <form class="input-box">
+                <input type="text" placeholder="What do you have to do?" id="task">
+                <button type="submit" id="add">
+                    <i class='bx bx-right-arrow-alt'></i>
+                </button>
+            </form>
+            <ul class="tasks">  
+            </ul>
+         </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="main.js"></script>
+
+</body>
+</html>
